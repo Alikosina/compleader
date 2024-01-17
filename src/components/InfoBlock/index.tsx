@@ -21,7 +21,7 @@ const getStatusByCount = (count: number): InfoBlockStatus => {
     return InfoBlockStatus.Error;
   }
 
-  if (count < 50) {
+  if (count > 50) {
     return InfoBlockStatus.Warning;
   }
 
