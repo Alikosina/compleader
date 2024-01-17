@@ -1,0 +1,18 @@
+.root {
+  max-width: 662px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 500px) {
+  .root {
+    max-width: auto;
+    margin: none;
+    padding: 0 32px;
+  }
+}
